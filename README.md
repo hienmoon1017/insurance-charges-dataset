@@ -19,7 +19,7 @@ df = pd.read_csv(file_path, header=None)
 ```
 ## 1. Data Preparation
 ```python
-**# insert headers**
+# insert headers
 headers = ["age", "gender", "bmi", "no_of_children", "smoker", "region", "charges"]
 df.columns = headers
 print(df.head(10))
@@ -34,10 +34,10 @@ df.info()
 ![image](https://github.com/user-attachments/assets/6a327a28-3855-4bb2-954e-c31cf17fc0d6)
 
 ```python
-**# Find and Remove duplicated rows**
+# Find and Remove duplicated rows
 print(df[df.duplicated()]) # Result: 1424 duplicated rows
 
-**# Drop duplicates and crosscheck result after removing**
+# Drop duplicates and crosscheck result after removing
 df.drop_duplicates(inplace=True)
 df.info() # Result: 1348 remaining rows after removing duplicated rows
 ```
