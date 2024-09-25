@@ -114,6 +114,9 @@ _here are the first 5 rows:_
 ## 2. Exploratory Data Analysis (EDA)
 
 **The correlation matrix for the dataset**
+```python
+print(df.corr())
+```
 
 ![image](https://github.com/user-attachments/assets/b1d25afa-da01-4e4f-ab20-9771fb815122)
 
