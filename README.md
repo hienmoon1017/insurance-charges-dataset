@@ -45,8 +45,9 @@ df.info()
 
 ![image](https://github.com/user-attachments/assets/6a327a28-3855-4bb2-954e-c31cf17fc0d6)
 
+**Find duplicated rows, and remove them (if any)**
 ```python
-# Find and Remove duplicated rows
+# Find duplicated rows
 print(df[df.duplicated()]) # Result: 1424 duplicated rows
 
 # Drop duplicates and crosscheck result after removing
