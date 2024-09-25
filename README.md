@@ -1,5 +1,17 @@
 # Using Python for Data Analytics on the Insurance Charges Dataset
 The dataset file is attached in this repository.
+
+### Data Dictionary:
+| Parameter       | Description                             | Content type           |
+|-----------------|-----------------------------------------|------------------------|
+| age             | Age in years                            | integer                |
+| gender          | Male or Female                          | integer (1 or 2)       |
+| bmi             | Body mass index                         | float                  |
+| no_of_children  | Number of children                      | integer                |
+| smoker          | Whether smoker or not                   | integer (0 or 1)       |
+| region          | Which US region - NW, NE, SW, SE        | integer (1, 2, 3 or 4) |
+| charges         | Annual Insurance charges in USD         | float                  |
+
 ### Objectives:
 - Load the data as a pandas dataframe
 - Clean the data, taking care of the blank entries
