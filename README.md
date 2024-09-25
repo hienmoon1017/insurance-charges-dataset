@@ -192,7 +192,7 @@ print("R^2 of the testing data:", r_square4)
 ```
 _R^2 of the testing data: **0.7417321259315346**_
 
-**Apply polynomial transformation to the training parameters with degree=2. Use this transformed feature set to fit the same regression model, as above, using the training subset. Calculate the R^2 score and MSE for the testing subset.**
+**Apply polynomial transformation to the training parameters with degree=2. Use this transformed feature set to fit the same regression model, as above, using the training subset. Calculate the R^2 score for the testing subset.**
 ```python
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import PolynomialFeatures
@@ -211,8 +211,6 @@ r_square5 = r2_score(y_test, yhat_pr)
 print("R^2 of the testing subset:", r_square5)
 ```
 _R^2 of the testing subset: **0.8343913869992748**_
-
-MSE (Mean Squared Error)
 
 ## Conclusion:
 With good R^2 = 83.43% I've created a training pipeline using StandardScaler(), PolynomialFeatures(), and LinearRegression() to predict charges, the next step is to deploy and use this trained model in real-work scenarios.
