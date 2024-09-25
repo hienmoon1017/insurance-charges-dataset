@@ -1,4 +1,4 @@
-# Using Python to Perform Data Analytics on the Insurance Charges Dataset
+# Using Python for Data Analytics on the Insurance Charges Dataset
 The dataset file is attached in this repository.
 ### Objectives:
 - Load the data as a pandas dataframe
